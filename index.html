@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art & Culture Marketplace</title>
+    <link rel="stylesheet" href="art.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">AKADE</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#signup">Login / Sign Up</a></li>
+        </ul>
+    </nav>
+    
+    <header id="home">
+        <h1>Discover & Trade Unique Art, Culture & Design</h1>
+        <p>Buy, sell, and customize exclusive art as NFTs in a thriving creative community.</p>
+        <button onclick="alert('Getting Started!')">Get Started</button>
+    </header>
+    
+    <section id="features">
+        <h2>Unique Features</h2>
+        <div class="feature-box">
+            <div class="feature">
+                <img src="customization.jpg" alt="Customization Preview">
+                <h3>Customization</h3>
+                <p>Modify and personalize artworks before purchase.</p>
+                <button onclick="alert('Explore Customization!')">Learn More</button>
+            </div>
+            <div class="feature">
+                <img src="nft-heritage.jpg" alt="NFT Cultural Heritage">
+                <h3>NFT - Arts & Cultural Heritage</h3>
+                <p>Secure ownership and authenticity through blockchain technology.</p>
+                <button onclick="alert('Explore NFTs!')">Learn More</button>
+            </div>
+            <div class="feature">
+                <img src="art-focus.jpg" alt="Art Focus">
+                <h3>Sole Focus on Arts, Culture & Design</h3>
+                <p>A dedicated marketplace for creatives and cultural enthusiasts.</p>
+                <button onclick="alert('Explore Art Focus!')">Learn More</button>
+            </div>
+            <div class="feature">
+                <img src="notifications.jpg" alt="Reminders & Notifications">
+                <h3>Reminders & Notifications</h3>
+                <p>Stay updated with alerts for auctions, sales, and new collections.</p>
+                <button onclick="alert('Explore Notifications!')">Learn More</button>
+            </div>
+            <div class="feature">
+                <img src="learning.jpg" alt="Learning & Skill Acquisition">
+                <h3>Learning & Skill Acquisition</h3>
+                <p>Develop expertise in art, culture, and design through interactive courses.</p>
+                <button onclick="alert('Explore Learning!')">Learn More</button>
+            </div>
+        </div>
+    </section>
+  
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        AKADE is a unique online marketplace dedicated to artists, designers, and cultural enthusiasts. 
+        We provide a vibrant space for creators to showcase, trade, and customize exclusive artwork using cutting-edge NFT technology. 
+        Our platform fosters a thriving community where creativity meets innovation, allowing users to explore, learn, and invest in digital art and cultural heritage. 
+        Whether you're an artist looking to sell your work or a collector seeking rare and personalized pieces, our marketplace is the perfect destination for art and culture lovers worldwide.
+    </p>
+</section>
+
+    <section id="signup">
+        <h2>Login / SignUp  </h2>
+        <div class="signup-container">
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Sign In</button>
+            </form>
+            <div id="g_id_onload"
+                data-client_id="YOUR_GOOGLE_CLIENT_ID"
+                data-context="signin"
+                data-ux_mode="popup"
+                data-callback="onSignIn"
+                data-auto_prompt="false">
+            </div>
+            <div class="g_id_signin" data-type="standard"></div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 AKADE. All rights reserved.</p>
+    </footer>
+</body>
+</html>
