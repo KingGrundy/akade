@@ -16,6 +16,10 @@ nav {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.uu{
+    color: #000000;
+}
+
 nav .logo {
     font-size: 26px;
     font-weight: bold;
